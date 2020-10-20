@@ -31,6 +31,14 @@ if each_word == "angry":
       feelings_list.append("angry")
       encouragement_list.append("calm down")
       counter += 1
+    if each_word == "stressed":
+      feelings_list.append("stressed")
+      encouragement_list.append("don't worry, results are not evrything")
+      counter += 1  
+    if each_word == "regret":
+      feelings_list.append("regret")
+      encouragement_list.append("reflect on your actions and know what you did wrong, then you won't make the same mistakes again")
+      counter += 1  
       
   if counter == 0:
     
